@@ -36,6 +36,14 @@ Other requirements:
 An example (works for me): ```CUDA 10.1``` and  ```pytorch 1.7.1``` 
 
 ```
+pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+https://github.com/open-mmlab/mmcv.git
+cd mmcv
+pip install -U openmim
+mim install mmcv
+pip install timm
+pip install opencv-python==4.5.1.48
+
 pip install torchvision==0.8.2
 pip install timm==0.3.2
 pip install mmcv-full==1.2.7
